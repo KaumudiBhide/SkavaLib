@@ -1,4 +1,4 @@
-//var axios = require('axios');
+var axios = require('axios');
 var data = JSON.stringify({"identity":"pete.smith@skava.com","password":"Skava@123"});
 
 var config = {
@@ -18,13 +18,13 @@ var SkavaUtils = {
   userLogin: function() {
       var message = 'Login to Skava Cloud DB!';
       console.log(message);
-    /*  axios(config)
+      axios(config)
       .then(function (response) {
         console.log(JSON.stringify(response.data));
       })
       .catch(function (error) {
         console.log(error);
-      });*/
+      });
       return message;
   },
   
