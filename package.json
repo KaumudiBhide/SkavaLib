@@ -1,0 +1,16 @@
+{
+  "name": "skava-lib",
+  "version": "1.0.0",
+  "description": "Skava JS Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Infosys",
+  "license": "ISC",
+  "dependencies": {
+    "json": "^10.0.0",
+    "require": "^2.4.20"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+}
