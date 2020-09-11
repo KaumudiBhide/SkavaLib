@@ -1,16 +1,22 @@
 {
   "name": "skava-lib",
-  "version": "1.0.1",
-  "description": "Skava JS Library",
+  "version": "1.0.4",
+  "description": "Test NPM Package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Infosys",
-  "license": "ISC",
-  "dependencies": {
-    "json": "^10.0.0",
-    "require": "^2.4.20"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/KaumudiBhide/SkavaLib.git"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaumudiBhide/SkavaLib/issues"
+  },
+  "homepage": "https://github.com/KaumudiBhide/SkavaLib#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }
