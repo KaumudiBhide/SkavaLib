@@ -9,33 +9,33 @@ Skava Library SDK
 import { SkavaUtils, SkavaResponse, SkavaError }  from 'skava-lib';
 ```
 
-#### invoke skava login
+Invoke login method to login to cloud database
 ```javascript 
 let message = SkavaUtils.userLogin(username, password);
 ```
 
-#### invoke skava get profile
+Invoke get profile method to retrieve use profile
 ```javascript 
 let message = SkavaUtils.userGetProfile();
 ```
 
-#### invoke skava logout
+Invoke logout method to logout of cloud databse
 ```javascript 
 let message = SkavaUtils.userLogout();
 ```
 
-#### invoke skava product search by barcode
+Invoke product search by barcode method to search catalog for a particular item
 ```javascript 
 let message = SkavaUtils.searchProductByBarcode(barcode);
 ```
 
-#### retrieve server response
+Retrieve server response
 ```javascript 
 let res = JSON.stringify(SkavaResponse.data);
 console.log("Skava Response: " + res);
 ```
 
-#### retrieve server error
+Retrieve server error
 ```javascript 
 let err = JSON.stringify(SkavaError.message)
 console.log("Skava Error: " + err);
