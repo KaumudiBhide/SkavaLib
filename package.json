@@ -1,6 +1,6 @@
 {
   "name": "skava-lib",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Test NPM Package",
   "main": "index.js",
   "scripts": {
