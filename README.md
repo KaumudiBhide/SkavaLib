@@ -1,10 +1,10 @@
 # SkavaLib
 Skava Library SDK
 
-## skava-lib
-# Skava-Lib is a JavaScript library for connecting to Skava Cloud using REST API End Points
+### skava-lib
+## Skava-Lib is a JavaScript library for connecting to Skava Cloud using REST API End Points
 
-## Example Usage in React-Native
+### Example Usage in React-Native
 > import { SkavaUtils, SkavaResponse, SkavaError }  from 'skava-lib';
 
 // invoke skava login
