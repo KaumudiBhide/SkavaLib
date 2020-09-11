@@ -8,7 +8,7 @@ Skava Library SDK
 > import { SkavaUtils, SkavaResponse, SkavaError }  from 'skava-lib';
 
 #### invoke skava login
-> let message = SkavaUtils.userLogin('pete.smith@skava.com', 'Skava@123');
+> let message = SkavaUtils.userLogin(username, password);
 
 #### invoke skava get profile
 > let message = SkavaUtils.userGetProfile();
@@ -17,7 +17,7 @@ Skava Library SDK
 > let message = SkavaUtils.userLogout();
 
 #### invoke skava product search by barcode
-> let message = SkavaUtils.searchProductByBarcode("190779352964");
+> let message = SkavaUtils.searchProductByBarcode(barcode);
 
 #### retrieve server response
 > let res = JSON.stringify(SkavaResponse.data);
